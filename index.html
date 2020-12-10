@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sarvarbek_odilov</title>
+        <STYLE>
+            .LINE{ BORDER:1PX SOLID BLACK;}
+        </STYLE>
+    </head>
+    <BODY>     
+    <FORM action="" method="POST">
+        <Fieldset>
+         <legend>Customer Details</legend>   
+        <label>CUSTOMER</label>
+        <select style="text-align:right">
+            <option value="-EMPTY-">-EMPTY-</option>
+            <option value="BUSY">BUSY</option>
+        </select>
+        <br>
+        <label for="num">Phone No</label>
+        <input type="number" id="num" required="required">
+        <br>
+        <label for="email">Customer Email</label>
+        <input type="email" id="email" required="required">
+        </Fieldset>
+        <br>
+        <fieldset>
+            <legend>Trip Dates</legend>
+            <label for="date">Arrival Date</label>
+            <input type="datetime-local" id="date" required="required">
+            <br>
+            <label for="days">No of Days</label>
+            <input type="number" id="days">
+            <br>
+             <label for="nights">No of Nights</label>
+             <input type="number" id="nights">
+             <br>
+             <label for="date">Departure date</label>
+             <input type="date" id="date">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Group</legend>
+            <label for="num">Number of Adults</label>
+            <input type="number" name="" id="num">
+            <br>
+            <label for="num">No of Kids</label>
+            <input type="number" name="" id="num">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Arrival Details</legend>
+            <label for="place">Arrival place</label>
+            <select name="" id="place">
+            <option value="Fort Kochi">Fort Kochi</option>
+            </select>
+            <br>
+            <label for="details">Arrival Details</label>
+            <input type="text" name="" id="details">
+         <br>
+             <label for="time">Arrival time</label>
+             <input type="time" name="" id="time">
+             <br>
+             <label for="home">Include Travel From Home</label>
+             <input type="checkbox" name="" id="home">
+             <input type="text" name="" id="home"><br>
+             <label for="location">Home place</label>
+             <input type="text" name="" id="location">
+             <br>
+             <label for="service">Service provider</label>
+             <input type="number" name="" id="service">
+             <br>
+             <label for="amount">Amount Customer</label>
+             <input type="number" name="" id="amount">
+             <br>
+             <label for="no">Amount Provider</label>
+             <input type="number" name="" id="no">
+             <br>
+             <label for="travel">Travel Details</label>
+             <input type="text" name="" id="travel">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Departure Details</legend>
+            <table>
+            <tr>
+<td><label for="place">Departure place</label></td>
+            <td><select name="" id="place">
+            <option value="Fort Kochi">Fort Kochi</option>
+            </select></td>
+            </tr>
+            <TR>
+            <TD><label for="details">Departure Details</label></TD>
+            <TD><input type="text" name="" id="details"></TD>
+         </TR>
+         <TR>
+             <TD><label for="time">Departure time</label></TD>
+             <TD><input type="time" name="" id="time"></TD>
+             </TR>
+             <TR>
+             <TD><label for="home">Include return Travel</label></TD>
+             <TD><input type="checkbox" name="" id="home">
+             <input type="text" name="" id="home"></TD>
+             </TR>
+             <TR>
+             <TD><label for="location">Return place</label></TD>
+             <TD><input type="text" name="" id="location"></TD>
+             </TR>
+             <TR>
+             <TD><label for="service">Service provider</label></TD>
+             <TD><input type="number" name="" id="service"></TD>
+             </TR>
+             <TR>
+             <TD><label for="amount">Amount Customer</label></TD>
+             <TD><input type="number" name="" id="amount"></TD>
+             </TR>
+             <TR>
+             <TD><label for="no">Amount Provider</label></TD>
+             <TD><input type="number" name="" id="no"></TD>
+             </TR>
+             <TR>
+             <TD><label for="travel">Return Details</label></TD>
+             <TD><input type="text" name="" id="travel"></TD>
+             </TR>
+             </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Preferences</legend>
+            <label for="meal">meal plan</label>
+            <select name="" id="meal">
+                <option value="AP">AP</option>
+            </select>
+            <br>
+            <caption>vehicle</caption>
+            <br>
+            <caption>preffered vehicles true</caption>
+            <br>
+         <Table     class="LINE">
+             <tr class="LINE">
+                 <tH class="LINE">vehicle</tH>
+                 <tH class="LINE">No of Vehicle</tH>
+                 <tH class="LINE">Is Ac</tH>
+                 <tH class="LINE">Actions</tH>
+             </tr>
+             <tr class="LINE">
+                 <TH class="LINE"><select name="" id=""></select></tH>
+                 <TH class="LINE"><input type="number"></tH>
+                 <TH class="LINE"><input type="checkbox"checked></tH>
+                 <TH class="LINE" style="color:dodgerblue;">remove</tH>
+             </tr>
+             </Table>
+             <caption>Add Preferred Vehicle</caption>
+         </fieldset>
+         <br>
+         <fieldset>
+             <legend><b>Visitor/Lead Passenger Details</b></legend>
+         <label for="nom">Visitor Name</label>
+         <input type="text" id="nom">
+         <br>
+         <label for="num">Visitor Phone No</label>
+         <input type="number" id="num">
+         <br>
+         <label for="emails">Visitor Email</label>
+         <input type="email" id="emails">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend><b>Other Details</b></legend>
+                <label for="note">Notes</label>
+                <input type="text" id="note">
+                <br>
+                <label for="budget">Budget</label>
+                <input type="number" id="budget">
+            </fieldset>
+    </FORM>
+    </BODY>
+</html>
